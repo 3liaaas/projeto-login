@@ -17,7 +17,6 @@
 }
 
 body, html {
-    background:scroll #39808d;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -25,6 +24,8 @@ body, html {
     overflow-x: hidden;
     margin: 0%;
     padding: 0%;
+    justify-content: center center;
+    
 }
 
 main{
