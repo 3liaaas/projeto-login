@@ -73,7 +73,8 @@ section#login > #formulario {
 }
 
 form > div.campo {
-    background-color: #2b6d99;
+    background-color: #22577A;
+    
     border-radius: 30px ;
     display: block;
     height: 40px;
@@ -94,13 +95,22 @@ div.campo > span {
 div.campo > input {
    border-radius: 30px ;
    background-color: #C7F9CC;
-   height: 100%;
-   width: calc(90% - -0px);
-   transform: translateY(-10px);
-   
+   height: 80%;
+   width: calc(100% - 54px);
+   transform: translateY(-12px);
+   border: none;
+  
 }
 
+div.campo > input:focus-within {
+    background-color: #ffffff;
+}
 
+#icon{
+    position: relative;
+    display: inline-block;
+    
+}
 
 form > input[type=submit] {
     display: block;
@@ -135,6 +145,7 @@ form > a.botao {
     font-weight: bold;
     cursor: pointer;
     margin: 5px 0px;
+    
 }
 
 form > a.botao:hover {
