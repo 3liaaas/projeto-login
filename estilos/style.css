@@ -23,6 +23,8 @@ body, html {
     width: 100%;
     background:linear-gradient(to top, #C7F9CC, #80ED99, #57CC99, #38A3A5, #22577A);
     overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
 }
 
 main{
