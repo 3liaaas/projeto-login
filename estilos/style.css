@@ -21,6 +21,7 @@ body, html {
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    background:linear-gradient(to top, #C7F9CC, #80ED99, #57CC99, #38A3A5, #22577A);
 }
 
 main{
@@ -35,15 +36,17 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: #ffffff;
     width: 270px;
-    height: 510px;
+    height: 535px;
     border-radius: 20px;
     box-shadow: 0px 0px 16px rgb(223, 223, 223);
-    transition: width 0.4s, height 0.4s;
     border: 4px solid #C7F9CC;
+    background:linear-gradient(to bottom, #22577a6b 70%, #ffffff91);
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s, height 0.4s;
 }
 
 
@@ -61,15 +64,23 @@ section#login > #formulario {
     padding: 10px;
 }
 
+div > h1, p {
+    
+    padding: 4px;
+    color: #C7F9CC;
+}
+
 #formulario > h1 {
     text-align: center;
-    margin-bottom: 10px;
-
+    
 }
 
 #formulario > p {
     font-size: 0.9em;
     text-align: center;
+    
+    padding: 7px;
+    
 }
 
 form > div.campo {
@@ -90,6 +101,8 @@ div.campo > span {
     width: 40px;
     padding: 5px;
     font-size: 2em;
+   
+    left: 4px;
 }
 
 div.campo > input {
@@ -97,13 +110,14 @@ div.campo > input {
    background-color: #C7F9CC;
    height: 80%;
    width: calc(100% - 54px);
-   transform: translateY(-12px);
    border: none;
+   transform: translateY(-12px);
   
 }
 
 div.campo > input:focus-within {
     background-color: #ffffff;
+    border: none;
 }
 
 #icon{
@@ -119,7 +133,7 @@ form > input[type=submit] {
     height: 30px;
     background-color: #22577A;
     color: #C7F9CC;
-    border: 1px solid #C7F9CC;
+    border: none;
     border-radius: 30px ;
     cursor: pointer;
     font-weight: bold;
@@ -128,8 +142,8 @@ form > input[type=submit] {
 
 form > input[type=submit]:hover {
     background-color: #C7F9CC;
-    transition: 0.5s;
     color: #22577A;
+    transition: 0.5s;
 }
 
 form > a.botao {
@@ -141,10 +155,11 @@ form > a.botao {
     height: 30px;
     background-color: #22577A;
     text-decoration: none;
-    color: #C7F9CC;
     font-weight: bold;
     cursor: pointer;
     margin: 5px 0px;
+    color: #C7F9CC;
+    
     
 }
 
